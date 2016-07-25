@@ -7,7 +7,7 @@
 <h2>Test</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create", "Test")
+    @Html.ActionLink("Create New", "Create")
 </p>
 <table class="table">
     <tr>
@@ -59,9 +59,9 @@
             @Html.DisplayFor(modelItem => item.Stuid)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", "Test") |
-            @Html.ActionLink("Create New", "Create", "Test")
-            @Html.ActionLink("Delete", "Delete", "Test")
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
         </td>
     </tr>
 }
