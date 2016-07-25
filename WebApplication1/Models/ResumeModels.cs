@@ -6,7 +6,6 @@ using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin.Security;
 
-
 namespace WebApplication2.Models
 {
     /// <summary>
@@ -56,6 +55,5 @@ namespace WebApplication2.Models
         [Required(ErrorMessage = "*")]
         [Display(Name = "学号")]
         public virtual string Stuid { get; set; }
-
     }
 }
