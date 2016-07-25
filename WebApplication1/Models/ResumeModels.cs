@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin.Security;
 
-namespace WebApplication2.Models
+namespace WebApplication1.Models
 {
     /// <summary>
     /// 学生信息

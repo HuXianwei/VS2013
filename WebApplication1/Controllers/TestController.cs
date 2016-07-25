@@ -18,7 +18,7 @@ namespace WebApplication1.Controllers
 
         // POST: /Test/Create    
         [HttpPost]
-        public ActionResult Create(ResumeModels resume)
+        public ActionResult Create(ResumeModels resume)   
         {
             if (ModelState.IsValid)
             {
