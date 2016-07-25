@@ -22,10 +22,8 @@ namespace WebApplication1.Controllers
         {
             if (ModelState.IsValid)
             {
-               
                 return RedirectToAction("Test", "Home");
             }
-           
             return View(resume);
         }
 
