@@ -10,13 +10,13 @@ namespace WebApplication1.Controllers
     public class TestController : Controller
     {
         // GET: /Test/Create
-        public ActionResult Create()
+        public ActionResult Create() 
         {
            
             return View();
         }
 
-        // POST: /Test/Create
+        // POST: /Test/Create    
         [HttpPost]
         public ActionResult Create(ResumeModels resume)
         {
